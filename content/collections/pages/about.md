@@ -4,7 +4,14 @@ blueprint: page
 title: About
 author: 6f3e28c3-028e-4aeb-a364-42afa4eec5c0
 updated_by: 6f3e28c3-028e-4aeb-a364-42afa4eec5c0
-updated_at: 1730159922
+updated_at: 1731375930
+alt_seo_meta_title: 'About - Andy Stitt'
+alt_seo_meta_description: 'Andy Stitt is a web developer specializing in front-end development and accessibility. He currently works in state government.'
+alt_seo_canonical_url: 'https://andystitt.com/about'
+alt_seo_noindex: false
+alt_seo_nofollow: false
+alt_seo_social_title: 'About - Andy Stitt'
+alt_seo_social_description: 'Andy Stitt is a web developer specializing in front-end development and accessibility. He currently works in state government.'
 ---
 I built my first websites as a bored teenager in 1998. I experimented with Tripod, GeoCities, and Angelfire.
 
