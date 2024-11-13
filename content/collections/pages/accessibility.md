@@ -4,7 +4,14 @@ blueprint: page
 title: 'Accessibility Statement'
 author: 6f3e28c3-028e-4aeb-a364-42afa4eec5c0
 updated_by: 6f3e28c3-028e-4aeb-a364-42afa4eec5c0
-updated_at: 1730341957
+updated_at: 1731462471
+alt_seo_meta_title: 'Accessibility Statement - Andy Stitt'
+alt_seo_meta_description: "Andy Stitt's website strives to meet conformance to WCAG 2.1 AA standards."
+alt_seo_canonical_url: 'https://andystitt.com/accessibility-statement'
+alt_seo_noindex: false
+alt_seo_nofollow: false
+alt_seo_social_title: 'Accessibility Statement - Andy Stitt'
+alt_seo_social_description: "Andy Stitt's website strives to meet conformance to WCAG 2.1 AA standards."
 ---
 I specialize in accessibility with my web development endeavors and practice what I preach.
 
