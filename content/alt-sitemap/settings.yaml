@@ -1,0 +1,14 @@
+default_collection_priorities:
+  -
+    id: m3fakw9t
+    collection: pages
+    priority: 1.0
+    type: collection_priority
+    enabled: true
+  -
+    id: m3fal6zj
+    collection: blogs
+    priority: 0.5
+    type: collection_priority
+    enabled: true
+exclude_collections_from_sitemap: null
