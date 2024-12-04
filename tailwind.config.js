@@ -6,6 +6,7 @@ export default {
         './resources/**/*.blade.php',
         './resources/**/*.vue',
         './content/**/*.md',
+        './node_modules/flyonui/dist/js/*.js',
     ],
 
     theme: {
@@ -14,5 +15,7 @@ export default {
 
     plugins: [
         require('@tailwindcss/typography'),
+        require('flyonui'),
+        require('flyonui/plugin'),
     ],
 };

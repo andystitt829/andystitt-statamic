@@ -1,1 +1,75 @@
-<div class="mt-8 prose prose-h1:font-bold">{{ content | widont }}</div>
+<!-- Hero -->
+<div class="relative overflow-hidden">
+    <!-- Gradients -->
+    <div
+        aria-hidden="true"
+        class="flex absolute -top-96 start-1/2 transform -translate-x-1/2"
+    >
+        <div
+            class="bg-gradient-to-r from-violet-300/50 to-purple-100 blur-3xl w-[25rem] h-[44rem] rotate-[-60deg] transform -translate-x-[10rem] dark:from-violet-900/50 dark:to-purple-900"
+        ></div>
+        <div
+            class="bg-gradient-to-tl from-blue-50 via-blue-100 to-blue-50 blur-3xl w-[90rem] h-[50rem] rounded-fulls origin-top-left -rotate-12 -translate-x-[15rem] dark:from-indigo-900/70 dark:via-indigo-900/70 dark:to-blue-900/70"
+        ></div>
+    </div>
+    <!-- End Gradients -->
+
+    <div class="relative z-10">
+        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+            <div class="max-w-2xl text-center mx-auto">
+                <!-- Title -->
+                <div class="mt-5 max-w-2xl">
+                    <h1
+                        class="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200"
+                    >
+                        Web Developer
+                    </h1>
+                </div>
+                <!-- End Title -->
+
+                <div class="mt-5 max-w-3xl">
+                    <p class="text-lg text-gray-600 dark:text-neutral-400">
+                        I'm a full-stack developer specializing in front-end
+                        development, accessibility, and using open-source
+                        software.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hero -->
+<main class="bg-white px-4 pt-8">
+    <!-- Timeline -->
+    <div>
+        <!-- prettier-ignore-start -->
+
+        {{ partial:home/resume-item title="Web Developer and Accessibility Lead"
+        company="Delaware Government Information Center " dates="2020-present"}}
+        I build and maintain custom WordPress websites for Delaware state
+        government agencies and municipalities. I also audit and remediate
+        websites for WCAG 2.1 AA conformance. {{ /partial:home/resume-item }}
+        {{partial:home/resume-item title="Web Developer" company="Dudnyk"
+        dates="2019-2020"}} I built websites, HTML emails, and Google banner ads
+        for pharmaceutical companies specializing in the treatment of rare
+        diseases. {{ /partial:home/resume-item }} {{partial:home/resume-item
+        title="Web Developer and Email Marketing Manager" company="Jewish
+        Federation of Greater Philadelphia" dates="2017-2019"}} I served as
+        technical project manager for a website redesign implementation and
+        managed the WordPress website and email marketing program. {{
+        /partial:home/resume-item }} {{partial:home/resume-item title="Owner and
+        WordPress Consultant" company="Deliberate Media Solutions"
+        dates="2016-2017"}} I provided WordPress consulting and development
+        services to individuals, nonprofits, a media company, and a marketing
+        agency. {{ /partial:home/resume-item }} {{partial:home/resume-item
+        title="Program Administrator and Website Manager" company="PMI
+        Educational Foundation" dates="2007-2016"}} In addition to managing the
+        scholarships and awards program, I managed a static HTML website and
+        then transitioned to content manager when the website was redesigned and
+        developed in Sitecore CMS. {{ /partial:home/resume-item }}
+
+        <!-- prettier-ignore-end -->
+    </div>
+    <!-- End Timeline -->
+    {{ content | widont }}
+</main>

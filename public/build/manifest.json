@@ -1,7 +1,13 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-BfJValJy.css",
+    "file": "assets/site-BsOn-VSU.css",
     "src": "resources/css/site.css",
+    "isEntry": true
+  },
+  "resources/js/flyonui.js": {
+    "file": "assets/flyonui-uQ7x4NJy.js",
+    "name": "flyonui",
+    "src": "resources/js/flyonui.js",
     "isEntry": true
   },
   "resources/js/site.js": {

@@ -8,6 +8,7 @@ export default defineConfig({
             input: [
                 'resources/css/site.css',
                 'resources/js/site.js',
+                'resources/js/flyonui.js',
 
                 // Control Panel assets.
                 // https://statamic.dev/extending/control-panel#adding-css-and-js-assets
