@@ -10,7 +10,7 @@
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-briefcase-fill"
+                class="bi bi-briefcase-fill dark:text-neutral-400"
                 viewBox="0 0 16 16"
             >
                 <path
@@ -26,25 +26,17 @@
 
     <!-- Right Content -->
     <div class="grow pb-8 group-last:pb-0">
-        <h2
-            class="mb-1 font-semibold text-lg text-gray-800 dark:text-neutral-200"
-        >
+        <h2 class="mb-1 mt-0 font-semibold text-lg dark:text-neutral-400">
             {{ title }}
         </h2>
 
-        <h3
-            class="mb-1 font-semibold text-base text-gray-800 dark:text-neutral-200"
-        >
+        <h3 class="mb-1 font-semibold text-base dark:text-neutral-400">
             {{ company }}
         </h3>
 
-        <p class="mb-3 text-base text-gray-600 dark:text-neutral-400">
-            {{ dates }}
-        </p>
+        <p class="mb-3 text-base dark:text-neutral-400">{{ dates }}</p>
 
-        <p class="mt-1 text-base text-gray-600 dark:text-neutral-400">
-            {{ slot }}
-        </p>
+        <p class="mt-1 text-base dark:text-neutral-400">{{ slot }}</p>
     </div>
     <!-- End Right Content -->
 </div>

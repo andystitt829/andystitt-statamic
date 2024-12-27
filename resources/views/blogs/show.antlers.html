@@ -1,6 +1,10 @@
-<main class="bg-white px-4 pt-8">
+<main class="bg-base-100 dark:bg-neutral-900 dark:text-neutral-400 px-4 pt-8">
     <h1 class="text-3xl font-bold my-8">{{ title }}</h1>
     <div class="my-8 text-md">Published on {{ date }}</div>
 
-    <article class="prose">{{ content }}</article>
+    <article
+        class="prose dark:text-neutral-400 dark:prose-headings:text-neutral-400 dark:prose-a:text-white dark:prose-code:text-neutral-200"
+    >
+        {{ content }}
+    </article>
 </main>

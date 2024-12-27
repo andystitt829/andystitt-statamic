@@ -10,12 +10,20 @@ export default {
     ],
 
     theme: {
-        extend: {},
+        extend: {
+        },
     },
+
+    darkMode: 'class',
 
     plugins: [
         require('@tailwindcss/typography'),
         require('flyonui'),
         require('flyonui/plugin'),
     ],
+
+    flyonui: {
+        themes: false,
+        styled: true,
+    },
 };
