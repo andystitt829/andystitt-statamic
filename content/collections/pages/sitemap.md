@@ -5,7 +5,7 @@ title: Sitemap
 template: sitemap
 author: 6f3e28c3-028e-4aeb-a364-42afa4eec5c0
 updated_by: 6f3e28c3-028e-4aeb-a364-42afa4eec5c0
-updated_at: 1731462540
+updated_at: 1735329202
 alt_seo_meta_title: 'Sitemap - Andy Stitt'
 alt_seo_meta_description: "This sitemap contains a list of pages within Andy Stitt's website."
 alt_seo_canonical_url: 'https://andystitt.com/sitemap'
@@ -13,5 +13,5 @@ alt_seo_noindex: false
 alt_seo_nofollow: false
 alt_seo_social_title: 'Sitemap - Andy Stitt'
 alt_seo_social_description: "This sitemap contains a list of pages within Andy Stitt's website."
+exclude_from_sitemap: false
 ---
-Checking this sitemap feature out.
