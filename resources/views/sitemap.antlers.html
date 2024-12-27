@@ -1,15 +1,21 @@
-<div class="mt-8 prose prose-h1:font-bold">
-    <h1>{{ title }}</h1>
-    <h2>Pages</h2>
-    <ul>
-        {{ collection:pages }}
-        <li><a href="{{ url }}">{{ title }}</a></li>
-        {{ /collection:pages }}
-    </ul>
-    <h2>Blog Posts</h2>
-    <ul>
-        {{ collection:blogs }}
-        <li><a href="{{ url }}">{{ title }}</a></li>
-        {{ /collection:blogs }}
-    </ul>
-</div>
+<main
+    class="bg-base-100 dark:bg-neutral-900 dark:text-neutral-400 px-4 pt-8 pb-4"
+>
+    <div
+        class="prose prose-h1:font-bold dark:text-neutral-400 dark:prose-headings:text-neutral-400 dark:prose-a:text-white"
+    >
+        <h1>{{ title }}</h1>
+        <h2>Pages</h2>
+        <ul>
+            {{ collection:pages }}
+            <li><a href="{{ url }}">{{ title }}</a></li>
+            {{ /collection:pages }}
+        </ul>
+        <h2>Blog Posts</h2>
+        <ul>
+            {{ collection:blogs }}
+            <li><a href="{{ url }}">{{ title }}</a></li>
+            {{ /collection:blogs }}
+        </ul>
+    </div>
+</main>
